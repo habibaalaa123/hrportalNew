@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "48wWbVqTU24=",
+  "dgSpecHash": "sLeIsll4zrY=",
   "success": true,
-  "projectFilePath": "D:\\College\\Extra-curriculum activities\\Assalam intern\\project\\hrportalNew\\hrportalNew\\hrportalNew.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\hrportalNew.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Youssef\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.304\\microsoft.net.sdk.compilers.toolset.9.0.304.nupkg.sha512"
+  ],
   "logs": []
 }

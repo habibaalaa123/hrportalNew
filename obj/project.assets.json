@@ -8,24 +8,32 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\habib\\.nuget\\packages\\": {}
+    "C:\\Users\\Youssef\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\College\\Extra-curriculum activities\\Assalam intern\\project\\hrportalNew\\hrportalNew\\hrportalNew.csproj",
+      "projectUniqueName": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\hrportalNew.csproj",
       "projectName": "hrportalNew",
-      "projectPath": "D:\\College\\Extra-curriculum activities\\Assalam intern\\project\\hrportalNew\\hrportalNew\\hrportalNew.csproj",
-      "packagesPath": "C:\\Users\\habib\\.nuget\\packages\\",
-      "outputPath": "D:\\College\\Extra-curriculum activities\\Assalam intern\\project\\hrportalNew\\hrportalNew\\obj\\",
+      "projectPath": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\hrportalNew.csproj",
+      "packagesPath": "C:\\Users\\Youssef\\.nuget\\packages\\",
+      "outputPath": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\habib\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Youssef\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -60,6 +68,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+            "version": "[9.0.304, 9.0.304]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
