@@ -1,0 +1,221 @@
+﻿@model IEnumerable<hrportalNew.Models.Employee>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EmpId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmpName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmpFullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HireDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Area)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SubArea)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmpGroup)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SubGroup)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrgUnit)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Job)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Position)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BirthDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nationality)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AddressEn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AddressAr)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NationalId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mobile)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pernr)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmpFullNameAr)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NationalityAr)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobAr)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PositionAr)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrgUnitAr)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sino)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mrn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Institute)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InstDegree)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InstBranch)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GradDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OtherDegree)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OtherDegDte)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EMail)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmpId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmpName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmpFullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HireDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Area)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubArea)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmpGroup)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubGroup)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrgUnit)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Job)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Position)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BirthDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nationality)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AddressEn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AddressAr)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NationalId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mobile)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pernr)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmpFullNameAr)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NationalityAr)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JobAr)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PositionAr)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrgUnitAr)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sino)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mrn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Institute)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InstDegree)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InstBranch)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GradDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OtherDegree)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OtherDegDte)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EMail)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

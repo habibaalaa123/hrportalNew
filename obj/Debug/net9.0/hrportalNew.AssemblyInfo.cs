@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("hrportalNew")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c91dfe5722a40fee49a423b7b80046c0af41fb06")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13085e63737cb5918e8a2ef4232b5bb0221d255a")]
 [assembly: System.Reflection.AssemblyProductAttribute("hrportalNew")]
 [assembly: System.Reflection.AssemblyTitleAttribute("hrportalNew")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,7 +1,19 @@
+using Microsoft.EntityFrameworkCore;
+using hrportalNew.Models; // Adjust namespace as needed
+
+
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<PortalContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+
 
 var app = builder.Build();
 
