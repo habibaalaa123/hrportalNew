@@ -1,5 +1,139 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Files\events\b106-y127-iced-coffee-recipes-XL-v2.jpg
+wwwroot\Files\events\d65-logo_Asslam (1).png
+wwwroot\Files\events\d66-IMG-20210616-WA0010.jpg
+wwwroot\Files\events\e124-31.jpg
+wwwroot\Files\events\e69-44.jpg
+wwwroot\Files\events\f138-p8-bc910f96ac56164cd7dc9a0cc1d7ed64.jpg
+wwwroot\Files\events\g102-IMG-20210616-WA0008.jpg
+wwwroot\Files\events\g83-OVR Dashboard.png
+wwwroot\Files\events\h0-IMG-20210616-WA0009.jpg
+wwwroot\Files\events\h58-IMG-20210616-WA0010.jpg
+wwwroot\Files\events\j129-3.PNG
+wwwroot\Files\events\m70-logo_Asslam.png
+wwwroot\Files\events\n11-1.jpg
+wwwroot\Files\events\n48-3rd_3.PNG
+wwwroot\Files\events\n87-IMG-20210616-WA0009.jpg
+wwwroot\Files\events\r31-IMG-20210616-WA0009.jpg
+wwwroot\Files\events\s12-36.jpg
+wwwroot\Files\events\t23-y127-iced-coffee-recipes-XL-v2.jpg
+wwwroot\Files\events\v41-IMG-20210616-WA0010.jpg
+wwwroot\Files\gallery\c52-750-7507635_hr-advisory-services-human-resource-management-hd-png.png
+wwwroot\Files\gallery\c76-download (2).jpg
+wwwroot\Files\gallery\d119-iced-coffee-recipes-XL-v2.jpg
+wwwroot\Files\gallery\d135-119049.jpg
+wwwroot\Files\gallery\d75-y127-iced-coffee-recipes-XL-v2.jpg
+wwwroot\Files\gallery\e143-119049.jpg
+wwwroot\Files\gallery\l120-200804-r-herb-roasted-chicken.jpg
+wwwroot\Files\gallery\l78-264b9b50398a592e571064d7731c86e2.jpg
+wwwroot\Files\gallery\logo heartection-1.jpg
+wwwroot\Files\gallery\p8-bc910f96ac56164cd7dc9a0cc1d7ed64.jpg
+wwwroot\Files\gallery\q42-Beef-Stroganoff_2-1-1.jpg
+wwwroot\Files\gallery\s78-119049.jpg
+wwwroot\Files\gallery\u1-download (3).jpg
+wwwroot\Files\gallery\v139-download.jpg
+wwwroot\Files\gallery\v51-204-2046845_red-pepper-sliced-veggie-bread-loaf-class-whole.png
+wwwroot\Files\gallery\y127-iced-coffee-recipes-XL-v2.jpg
+wwwroot\Files\gallery\y20-ATyCHr.jpg
+wwwroot\Files\LDs\d27-lunch1.PNG
+wwwroot\Files\LDs\e124-31.jpg
+wwwroot\Files\LDs\e69-44.jpg
+wwwroot\Files\LDs\k39-lunch1.PNG
+wwwroot\Files\LDs\n11-1.jpg
+wwwroot\Files\LDs\s12-36.jpg
+wwwroot\Files\LDs\t59-lunch1.PNG
+wwwroot\Files\manage\j9-img (20).jpg
+wwwroot\Files\manage\k148-img (26).jpg
+wwwroot\Files\manage\m51-204-2046845_red-pepper-sliced-veggie-bread-loaf-class-whole.png
+wwwroot\Files\manage\w4-img(10).jpg
+wwwroot\Files\manage\x28-119049.jpg
+wwwroot\Files\news\1st_Template.PNG
+wwwroot\Files\news\2nd_1.PNG
+wwwroot\Files\news\d9-3rd_2.PNG
+wwwroot\Files\offers\i9-6223001872931.jpg
+wwwroot\Files\offers\l97-y20-ATyCHr.jpg
+wwwroot\Files\offers\s18-p8-bc910f96ac56164cd7dc9a0cc1d7ed64.jpg
+wwwroot\Files\offers\u145-y127-iced-coffee-recipes-XL-v2.jpg
+wwwroot\Files\profile\b49-img (20).jpg
+wwwroot\Files\profile\g88-img (20).jpg
+wwwroot\Files\profile\i39-img (20).jpg
+wwwroot\Files\profile\k78-img (20).jpg
+wwwroot\Files\profile\n1-img (20).jpg
+wwwroot\Files\quotes\c145-1.PNG
+wwwroot\Files\quotes\i114-3rd_2.PNG
+wwwroot\Files\quotes\o46-4th_template.PNG
+wwwroot\Files\quotes\q130-3rd_3.PNG
+wwwroot\Files\quotes\r91-May 15th Photo.jpg
+wwwroot\Files\quotes\x53-83feb691a29617c059b507f3679ae0b8.png
+wwwroot\Files\Reports\e121-13539_pay.pdf
+wwwroot\Files\Reports\k101-IT-data-collection-sheet_feb_2021-.xlsx
+wwwroot\Files\Reports\l61-asmaa_time_sheet.pdf
+wwwroot\Files\Reports\m71-Sign-In-Sheet-Template-.docx
+wwwroot\Files\Reports\n37-Final-Telephone-Directory.xlsx
+wwwroot\Files\Reports\q32-asmaa_time_sheet.pdf
+wwwroot\Files\Reports\w139-وزارة-الصحة-والسكان-المصرية---لقاح-فيروس-كورونا-المستجد.pdf
+wwwroot\Files\UploadVideos\a148-g11-VID-20210106-WA0007.mp4
+wwwroot\Files\UploadVideos\d123-BOOTEX.LOG
+wwwroot\Files\UploadVideos\g11-VID-20210106-WA0007.mp4
+wwwroot\Files\UploadVideos\n59-u90-a148-g11-VID-20210106-WA0007.mp4
+wwwroot\Files\UploadVideos\q135-7 Strategies for Overcoming Resistance to Change.mp4
+wwwroot\Files\UploadVideos\u130-g11-VID-20210106-WA0007.mp4
+wwwroot\Files\UploadVideos\u90-a148-g11-VID-20210106-WA0007.mp4
+wwwroot\Files\viewPDF.pdf
+wwwroot\images\1.jpg
+wwwroot\images\11.jpg
+wwwroot\images\13.jpg
+wwwroot\images\14.jpg
+wwwroot\images\15.jpg
+wwwroot\images\30.jpg
+wwwroot\images\31.jpg
+wwwroot\images\32.jpg
+wwwroot\images\33.jpg
+wwwroot\images\34.jpg
+wwwroot\images\35.jpg
+wwwroot\images\36.jpg
+wwwroot\images\40.jpg
+wwwroot\images\41.jpg
+wwwroot\images\43.jpg
+wwwroot\images\44.jpg
+wwwroot\images\46.jpg
+wwwroot\images\arrow-green.png
+wwwroot\images\arrow-red.png
+wwwroot\images\As-SalamLogo.png
+wwwroot\images\As-SalamLogoc_s.png
+wwwroot\images\As-SalamLogo_s.png
+wwwroot\images\assih color code.jpg
+wwwroot\images\banner\1.jpg
+wwwroot\images\banner\2.jpg
+wwwroot\images\banner\7.jpg
+wwwroot\images\banner\9.png
+wwwroot\images\bg01.jpg
+wwwroot\images\bg02.jpg
+wwwroot\images\Capturce.PNG
+wwwroot\images\Capture.PNG
+wwwroot\images\download.png
+wwwroot\images\Editor\5c6fd6fa-ceb2-4241-8247-62bc9723ad8d.PNG
+wwwroot\images\IMG_20180125_121931_edit option 2.jpg
+wwwroot\images\logo ASSIH-01.png
+wwwroot\images\logo Asslam.pdf
+wwwroot\images\logo heartection-1.png
+wwwroot\images\logo heartection-11.png
+wwwroot\images\logo_en4.png
+wwwroot\images\l_d1.jpg
+wwwroot\images\l_d2.jpg
+wwwroot\images\mist-logo.png
+wwwroot\images\news.jpg
+wwwroot\images\news_icon.png
+wwwroot\images\no-person.png
+wwwroot\images\org_chart_1.png
+wwwroot\images\org_chart_2.png
+wwwroot\images\pdf.gif
+wwwroot\images\shortcut.jpg
+wwwroot\images\Slide1.jpg
+wwwroot\images\Slide3.jpg
+wwwroot\images\Slide5.jpg
+wwwroot\images\ZIC_8213-Pano_edit portf.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map

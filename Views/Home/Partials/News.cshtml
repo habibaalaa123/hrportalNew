@@ -1,0 +1,36 @@
+﻿@model homeModel
+<!-- News Section -->
+<section class="news-section">
+    <div class="auto-container">
+        <!-- Sec Title -->
+        <div class="sec-title text-center">
+            <span class="title">Latest News</span>
+            <h2 class="text-reveal-anim">Recent Articles and News</h2>
+            <span class="divider"></span>
+        </div>
+
+       
+
+        <div class="row">
+            @foreach (var item in Model.eventList)
+            {
+                <!-- News Block -->
+                <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <figure class="image"><a href="blog-post-image.html"><img src="images/15.jpg" alt=""></a></figure>
+                            <a href="#" class="date">@(item.Date?.ToString("yyyy-MM-dd") ?? "No date available")</a>
+                        </div>
+                        <div class="lower-content">
+                            <h4><a href="blog-post-image.html">@item.HeaderEn</a></h4>
+                        </div>
+                    </div>
+                </div>
+            }
+            
+
+
+        </div>
+    </div>
+</section>
+<!--End News Section -->
