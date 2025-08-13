@@ -3,44 +3,100 @@
   "WorkspaceRootPath": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\views\\home\\partials\\news.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:views\\home\\partials\\news.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\models\\homemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:models\\homemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\models\\tblnews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:models\\tblnews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\views\\home\\partials\\tip_cal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:views\\home\\partials\\tip_cal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\wwwroot\\theme\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:wwwroot\\theme\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\views\\home\\partials\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:views\\home\\partials\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\views\\shared\\components\\footerevents\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:views\\shared\\components\\footerevents\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\models\\portalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:models\\portalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\viewcomponents\\footerevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:viewcomponents\\footerevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\models\\footereventsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:models\\footereventsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\models\\homemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:models\\homemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\wwwroot\\theme\\css\\flaticon.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:wwwroot\\theme\\css\\flaticon.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\views\\home\\partials\\news.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:views\\home\\partials\\news.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\views\\home\\partials\\tip_cal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:views\\home\\partials\\tip_cal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\info\\theme\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:info\\theme\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\views\\home\\partials\\team.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:views\\home\\partials\\team.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\views\\home\\partials\\calander.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:views\\home\\partials\\calander.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\models\\tblnews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:models\\tblnews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\models\\portalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:models\\portalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,10 +113,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\info\\theme\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:info\\theme\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD76DE07-0B8C-D051-539B-3C10376735F0}|hrportalNew.csproj|c:\\myfiles\\training\\newrepo\\hrportalnew\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -81,26 +133,53 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TblNews.cs",
-              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Models\\TblNews.cs",
-              "RelativeDocumentMoniker": "Models\\TblNews.cs",
-              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Models\\TblNews.cs",
-              "RelativeToolTip": "Models\\TblNews.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T12:15:15.872Z",
+              "WhenOpened": "2025-08-11T12:05:13.619Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "homeModel.cs",
-              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Models\\homeModel.cs",
-              "RelativeDocumentMoniker": "Models\\homeModel.cs",
-              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Models\\homeModel.cs",
-              "RelativeToolTip": "Models\\homeModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Shared\\Components\\FooterEvents\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\FooterEvents\\Default.cshtml",
+              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Shared\\Components\\FooterEvents\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\FooterEvents\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-13T12:16:21.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "Views\\Login\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-13T09:37:29.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeModel.cs",
+              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Models\\HomeModel.cs",
+              "RelativeDocumentMoniker": "Models\\HomeModel.cs",
+              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Models\\HomeModel.cs",
+              "RelativeToolTip": "Models\\HomeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-12T11:26:45.363Z",
               "EditorCaption": ""
@@ -108,19 +187,227 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAALoAAAAAAAAAAAAAANkAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T11:42:05.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T12:06:03.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Tip_Cal.cshtml",
+              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Home\\Partials\\Tip_Cal.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Partials\\Tip_Cal.cshtml",
+              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Home\\Partials\\Tip_Cal.cshtml",
+              "RelativeToolTip": "Views\\Home\\Partials\\Tip_Cal.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T10:44:32.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DashBoard.cshtml",
               "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Home\\Partials\\DashBoard.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Partials\\DashBoard.cshtml",
               "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Home\\Partials\\DashBoard.cshtml",
               "RelativeToolTip": "Views\\Home\\Partials\\DashBoard.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwCgAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-12T11:22:11.616Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\wwwroot\\Theme\\css\\style.css",
+              "RelativeDocumentMoniker": "wwwroot\\Theme\\css\\style.css",
+              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\wwwroot\\Theme\\css\\style.css",
+              "RelativeToolTip": "wwwroot\\Theme\\css\\style.css",
+              "ViewState": "AgIAAH8NAAAAAAAAAAAswI8NAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-13T09:42:35.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T09:28:24.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FooterEvents.cs",
+              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\ViewComponents\\FooterEvents.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\FooterEvents.cs",
+              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\ViewComponents\\FooterEvents.cs",
+              "RelativeToolTip": "ViewComponents\\FooterEvents.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T12:20:12.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FooterEventsModel.cs",
+              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Models\\FooterEventsModel.cs",
+              "RelativeDocumentMoniker": "Models\\FooterEventsModel.cs",
+              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Models\\FooterEventsModel.cs",
+              "RelativeToolTip": "Models\\FooterEventsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T12:25:34.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Employees\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employees\\Index.cshtml",
+              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Employees\\Index.cshtml",
+              "RelativeToolTip": "Views\\Employees\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-13T10:58:33.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-13T09:00:56.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "login.html",
+              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\info\\theme\\login.html",
+              "RelativeDocumentMoniker": "info\\theme\\login.html",
+              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\info\\theme\\login.html",
+              "RelativeToolTip": "info\\theme\\login.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-13T09:14:31.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Team.cshtml",
+              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Home\\Partials\\Team.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Partials\\Team.cshtml",
+              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Home\\Partials\\Team.cshtml",
+              "RelativeToolTip": "Views\\Home\\Partials\\Team.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T10:45:21.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "flaticon.css",
+              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\wwwroot\\Theme\\css\\flaticon.css",
+              "RelativeDocumentMoniker": "wwwroot\\Theme\\css\\flaticon.css",
+              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\wwwroot\\Theme\\css\\flaticon.css",
+              "RelativeToolTip": "wwwroot\\Theme\\css\\flaticon.css",
+              "ViewState": "AgIAALEAAAAAAAAAAAAAAL8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-13T11:24:18.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "News.cshtml",
+              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Home\\Partials\\News.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Partials\\News.cshtml",
+              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Home\\Partials\\News.cshtml",
+              "RelativeToolTip": "Views\\Home\\Partials\\News.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T10:44:50.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": ".gitattributes",
+              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\.gitattributes",
+              "RelativeDocumentMoniker": ".gitattributes",
+              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\.gitattributes",
+              "RelativeToolTip": ".gitattributes",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-13T09:31:02.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T10:13:20.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Calander.cshtml",
+              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Home\\Partials\\Calander.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Partials\\Calander.cshtml",
+              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Home\\Partials\\Calander.cshtml",
+              "RelativeToolTip": "Views\\Home\\Partials\\Calander.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-13T08:58:51.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "PortalContext.cs",
               "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Models\\PortalContext.cs",
               "RelativeDocumentMoniker": "Models\\PortalContext.cs",
@@ -128,89 +415,36 @@
               "RelativeToolTip": "Models\\PortalContext.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T10:18:21.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T10:18:21.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "Models\\Employee.cs",
-              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Models\\Employee.cs",
-              "RelativeToolTip": "Models\\Employee.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 21,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T10:13:20.194Z",
+              "WhenOpened": "2025-08-13T08:26:17.209Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBYAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "TblNews.cs",
+              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Models\\TblNews.cs",
+              "RelativeDocumentMoniker": "Models\\TblNews.cs",
+              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Models\\TblNews.cs",
+              "RelativeToolTip": "Models\\TblNews.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T12:05:13.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T12:15:15.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-11T12:06:03.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Tip_Cal.cshtml",
-              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Home\\Partials\\Tip_Cal.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Partials\\Tip_Cal.cshtml",
-              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Home\\Partials\\Tip_Cal.cshtml",
-              "RelativeToolTip": "Views\\Home\\Partials\\Tip_Cal.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-12T10:44:32.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "News.cshtml",
-              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Home\\Partials\\News.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Partials\\News.cshtml",
-              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Home\\Partials\\News.cshtml",
-              "RelativeToolTip": "Views\\Home\\Partials\\News.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-12T10:44:50.795Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Team.cshtml",
-              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Home\\Partials\\Team.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Partials\\Team.cshtml",
-              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Home\\Partials\\Team.cshtml",
-              "RelativeToolTip": "Views\\Home\\Partials\\Team.cshtml",
-              "ViewState": "AgIAACkAAAAAAAAAAAAowD4AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-12T10:45:21.956Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 26,
               "Title": "Complaint.cs",
               "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Models\\Complaint.cs",
               "RelativeDocumentMoniker": "Models\\Complaint.cs",
@@ -222,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 24,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -234,7 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 25,
               "Title": "hrportalNew.csproj",
               "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\hrportalNew.csproj",
               "RelativeDocumentMoniker": "hrportalNew.csproj",
@@ -246,19 +480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABIBAAAAAAAAAAAswBgBAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-11T11:42:05.963Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 27,
               "Title": "style.css",
               "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\info\\theme\\css\\style.css",
               "RelativeDocumentMoniker": "info\\theme\\css\\style.css",
@@ -270,7 +492,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 29,
               "Title": "Microsoft.NET.Sdk.StaticWebAssets.ScopedCss.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.ScopedCss.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.304\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.ScopedCss.targets",
@@ -282,7 +504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 28,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\MyFiles\\Training\\NewRepo\\hrportalNew\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",

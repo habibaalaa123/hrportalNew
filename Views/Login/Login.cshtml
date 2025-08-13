@@ -1,0 +1,46 @@
+﻿@model HomeModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<!--Login Section-->
+<section class="login-section" style="display: flex; align-items: center; justify-content: center; min-height: 100vh;">
+    <div class="auto-container">
+        <div class="row justify-content-center">
+            <div class="column col-lg-6 col-md-8 col-sm-12">
+                <!-- Login Form -->
+                <div class="login-form">
+                    <h2>Login</h2>
+                    <form method="post" asp-action="Login" asp-controller="Login">
+                        <div class="form-group">
+                            <label>Username or Email</label>
+                            <input type="text" name="username" placeholder="Name or Email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Enter Your Password</label>
+                            <input type="password" name="password" placeholder="Password" required>
+                        </div>
+
+                        
+
+                        <div class="form-group">
+                            <button class="theme-btn btn-style-one" type="submit">
+                                <span class="btn-title">LOGIN</span>
+                            </button>
+                        </div>
+                        
+                        <div class="form-group pass">
+                            <a href="#" class="psw">Lost your password?</a>
+                        </div>
+                    </form>
+                </div>
+                <!--End Login Form -->
+            </div>
+        </div>
+    </div>
+</section>
+
+</section>
+<!--End Login Section-->

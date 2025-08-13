@@ -317,7 +317,6 @@ C:\MyFiles\Training\NewRepo\hrportalNew\obj\Debug\net9.0\compressed\hb90voyx7y-8
 C:\MyFiles\Training\NewRepo\hrportalNew\obj\Debug\net9.0\compressed\96df9i50ax-uzqhrys2rj.gz
 C:\MyFiles\Training\NewRepo\hrportalNew\obj\Debug\net9.0\compressed\yk4n5ujexx-4mt18zkonn.gz
 C:\MyFiles\Training\NewRepo\hrportalNew\obj\Debug\net9.0\compressed\9113ttnv7w-726eu4ooqf.gz
-C:\MyFiles\Training\NewRepo\hrportalNew\obj\Debug\net9.0\compressed\gqgh6t0tbm-mgs3jllbol.gz
 C:\MyFiles\Training\NewRepo\hrportalNew\obj\Debug\net9.0\compressed\vji9sg4ld5-x2iksdoaix.gz
 C:\MyFiles\Training\NewRepo\hrportalNew\obj\Debug\net9.0\compressed\cw7jakfxie-i1ajiy5g24.gz
 C:\MyFiles\Training\NewRepo\hrportalNew\obj\Debug\net9.0\compressed\0oaibelsoa-a13i4xifja.gz
@@ -587,3 +586,4 @@ C:\MyFiles\Training\NewRepo\hrportalNew\bin\Debug\net9.0\tr\Microsoft.CodeAnalys
 C:\MyFiles\Training\NewRepo\hrportalNew\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\MyFiles\Training\NewRepo\hrportalNew\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\MyFiles\Training\NewRepo\hrportalNew\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\MyFiles\Training\NewRepo\hrportalNew\obj\Debug\net9.0\compressed\gqgh6t0tbm-ro276z6r8s.gz

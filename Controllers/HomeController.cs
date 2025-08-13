@@ -12,7 +12,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        homeModel home = new homeModel();
+        HomeModel home = new HomeModel();
       // var todLst ;
       var  todLst= context.TblTods.OrderByDescending(t => t.Date).FirstOrDefault(t => t.First == 1);
         string img_path = todLst.ImgPath.ToString();
@@ -39,6 +39,29 @@ public class HomeController : Controller
             Console.WriteLine(ex.ToString());
             // return null;
         }
+
+        try
+        {
+            var teamList = context.TblTopmngs
+                     .OrderBy(n => n.Order)
+                     .Take(8)
+                     .ToList();
+            if (teamList.Count > 0)
+            {
+
+
+
+
+                home.teamList = teamList;
+
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.ToString());
+            // return null;
+        }
+
 
 
         return View(home);

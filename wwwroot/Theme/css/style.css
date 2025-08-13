@@ -3252,8 +3252,8 @@ hr {
 
 ***/
 
-.main-slider{
-  position: relative;
+.main-slider {
+    position: relative;
 }
 
 .main-slider .tp-dottedoverlay{
@@ -3464,11 +3464,11 @@ hr {
   right: 30px;
 }
 
-.banner-section-one .content-outer{
-  position: relative;
-  display: flex;
-  align-items: center;
-  min-height: 780px;
+.banner-section-one .content-outer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 600px;
 }
 
 .banner-section-one .content-box {

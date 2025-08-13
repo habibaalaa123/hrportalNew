@@ -1,4 +1,4 @@
-﻿@model homeModel
+﻿@model HomeModel
 <!-- News Section -->
 <section class="news-section">
     <div class="auto-container">
@@ -18,7 +18,7 @@
                 <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><a href="blog-post-image.html"><img src="images/15.jpg" alt=""></a></figure>
+                            <figure class="image"><a href="blog-post-image.html"><img src="~/Files/quotes/@item.ImgPath" alt="" onerror="this.onerror=null;this.src='Theme/images/ImageNotFound.png';"></a></figure>
                             <a href="#" class="date">@(item.Date?.ToString("yyyy-MM-dd") ?? "No date available")</a>
                         </div>
                         <div class="lower-content">
