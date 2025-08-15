@@ -12,9 +12,9 @@
                 <!-- Login Form -->
                 <div class="login-form">
                     <h2>Login</h2>
-                    <form method="post" asp-action="Login" asp-controller="Login">
+                    <form method="post" asp-controller="Login" asp-action="AttemptLogin">
                         <div class="form-group">
-                            <label>Username or Email</label>
+                            <label>Username</label>
                             <input type="text" name="username" placeholder="Name or Email" required>
                         </div>
 
@@ -26,7 +26,7 @@
                         
 
                         <div class="form-group">
-                            <button class="theme-btn btn-style-one" type="submit">
+                            <button  class="theme-btn btn-style-one" type="submit">
                                 <span class="btn-title">LOGIN</span>
                             </button>
                         </div>

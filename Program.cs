@@ -12,10 +12,12 @@ builder.Services.AddDbContext<PortalContext>(options =>
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-
-
+builder.Services.AddSession(); // add session service
 
 var app = builder.Build();
+
+app.UseSession(); // add before app.MapControllerRoute
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
