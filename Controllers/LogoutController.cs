@@ -2,13 +2,14 @@
 
 namespace hrportalNew.Controllers
 {
+
     public class LogoutController : Controller
     {
-       [HttpGet("Logout")]
+        [HttpGet("logout")]
         public async Task<IActionResult> Logout()
         {
             HttpContext.Session.Clear();
             return Redirect("/login");
-        }
+        }
     }
 }

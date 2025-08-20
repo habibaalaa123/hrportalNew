@@ -36,6 +36,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxBdHRlbmRhbmNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/MyFiles/Training/NewRepo/hrportalNew/Views/Calender/Calender.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsZW5kZXJcQ2FsZW5kZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/MyFiles/Training/NewRepo/hrportalNew/Views/ChangePass/ChangePass.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbmdlUGFzc1xDaGFuZ2VQYXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -80,6 +84,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJuYWxWYWNcSW50ZXJuYWxWYWMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/MyFiles/Training/NewRepo/hrportalNew/Views/LearningDevelopment/LearningDevelopment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhcm5pbmdEZXZlbG9wbWVudFxMZWFybmluZ0RldmVsb3BtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/MyFiles/Training/NewRepo/hrportalNew/Views/Leaves/Leaves.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVhdmVzXExlYXZlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -98,6 +106,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/MyFiles/Training/NewRepo/hrportalNew/Views/MyProfile/MyProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlQcm9maWxlXE15UHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyFiles/Training/NewRepo/hrportalNew/Views/MyRequest/MyRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlSZXF1ZXN0XE15UmVxdWVzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/MyFiles/Training/NewRepo/hrportalNew/Views/Offers/Offers.cshtml]
@@ -132,12 +144,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyXE5hdmJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/MyFiles/Training/NewRepo/hrportalNew/Views/Shared/Components/Navbar/NavbarLogout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyXE5hdmJhckxvZ291dC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/MyFiles/Training/NewRepo/hrportalNew/Views/Shared/Components/News/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmV3c1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/MyFiles/Training/NewRepo/hrportalNew/Views/Shared/Components/SiteMap/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2l0ZU1hcFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/MyFiles/Training/NewRepo/hrportalNew/Views/Shared/Components/Team/Default.cshtml]

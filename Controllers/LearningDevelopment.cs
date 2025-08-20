@@ -1,11 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-
 namespace hrportalNew.Controllers
 {
-    public class LearningDevelopment : Controller
+    public class LearningDevelopmentController : Controller
     {
-        public IActionResult Learning()
+        [HttpGet("learningDevelopment")]
+        public IActionResult LearningDevelopment()
         {
+
             return View();
         }
     }

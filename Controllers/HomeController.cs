@@ -17,11 +17,11 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         HomeModel home = new HomeModel();
-        // var todLst ;
+     
         var todLst = context.TblTods.OrderByDescending(t => t.Date).FirstOrDefault(t => t.First == 1);
         string img_path = todLst.ImgPath.ToString();
         home.tod = img_path;
-        //news/////
+
         try
         {
             var eventList = context.TblEvents
@@ -41,7 +41,7 @@ public class HomeController : Controller
         catch (Exception ex)
         {
             Console.WriteLine(ex.ToString());
-            // return null;
+         
         }
 
         try
@@ -52,10 +52,6 @@ public class HomeController : Controller
                      .ToList();
             if (teamList.Count > 0)
             {
-
-
-
-
                 home.teamList = teamList;
 
             }
@@ -63,11 +59,8 @@ public class HomeController : Controller
         catch (Exception ex)
         {
             Console.WriteLine(ex.ToString());
-            // return null;
+
         }
-
-
-
         return View(home);
     }
 

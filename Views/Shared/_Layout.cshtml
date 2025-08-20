@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>hrportal</title>
+    <title>HRportal</title>
 
     <!-- Calander -->
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -60,7 +60,7 @@
                                 <div class="footer-column col-xl-7 col-lg-6 col-md-6 col-sm-12">
                                     <div class="footer-widget about-widget">
                                         <div class="logo">
-                                            <a href="index-2.html"><img src="~/Theme/images/CaptureWhite.png" alt="" /></a>
+                                            <a asp-action="Index" asp-controller="Home"><img src="~/Theme/images/CaptureWhite.png" alt="" /></a>
                                         </div>
                                         <div class="text">
                                             <p>As-salam Hospital has grown into a world class facility dedicated to providing exceptional healthcare services to the community. </p>
@@ -70,19 +70,8 @@
                                 </div>
 
                                 <!--Footer Column-->
-                                <div class="footer-column col-xl-5 col-lg-6 col-md-6 col-sm-12">
-                                    <div class="footer-widget">
-                                        <h2 class="widget-title">Site Map</h2>
-                                        <ul class="user-links">
-                                            <li><a asp-action="Index" asp-controller="Index">Home</a></li>
-                                            <li><a asp-action="FAQ" asp-controller="FAQ">FAQ</a></li>
-                                            <li><a href="#">Offers</a></li>
-                                            <li><a href="#">Events</a></li>
-                                            <li><a href="#">People Community</a></li>
-                                            <li><a href="#">Learning & Development</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
+                                @await Component.InvokeAsync("SiteMap")
+
                             </div>
                         </div>
 

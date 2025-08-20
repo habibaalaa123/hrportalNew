@@ -41,7 +41,7 @@
 
                             <li><a asp-action="FAQ" asp-controller="FAQ">FAQ</a></li>
                             <li><a asp-action="Offers" asp-controller="Offers">Offers</a></li>
-                            <li><a href=".html">Events</a></li>
+                            <li><a asp-action="Events" asp-controller="Events">Events</a></li>
 
                             <li><a href="#features">People Community</a></li>
                             <li><a asp-action="LearningDevelopment" asp-controller="LearningDevelopment">Learning</a></li>
@@ -80,11 +80,7 @@
         <div class="nav-outer clearfix">
 
             <div class="outer-box">
-                <!-- Search Btn -->
-                <div class="search-box">
-                    <button class="search-btn mobile-search-btn"><i class="flaticon-magnifying-glass"></i></button>
-                </div>
-
+            
                 <a href="#nav-mobile" class="mobile-nav-toggler navbar-trigger"><span class="fa fa-bars"></span></a>
             </div>
         </div>
@@ -92,22 +88,6 @@
 
     <!-- Mobile Nav -->
     <div id="nav-mobile"></div>
-
-    @*<!-- Header Search -->
-            <div class="search-popup">
-                <span class="search-back-drop"></span>
-                <button class="close-search"><span class="fa fa-times"></span></button>
-
-                <div class="search-inner">
-                    <form method="post" action="https://elite-themes.com/html/medicoz/blog-showcase.html">
-                        <div class="form-group">
-                            <input type="search" name="search-field" value="" placeholder="Search..." required="">
-                            <button type="submit"><i class="flaticon-magnifying-glass"></i></button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <!-- End Header Search -->*@
 
 </header>
 }
@@ -154,19 +134,19 @@ else
                                 <span>Human Resources</span>
                                 <ul>
                                     <li><a asp-action="HrDocs" asp-controller="HrDocs">HR Docments</a></li>
-                                    <li><a asp-action="InternalVac" asp-controller="HrDocs">Internal Vacancies</a></li>
+                                    <li><a asp-action="InternalVac" asp-controller="InternalVac">Internal Vacancies</a></li>
                                 </ul>
                             </li>
 
                             <li class="dropdown">
                                 <span>Events</span>
                                 <ul>
-                                    <li><a href="doctors.html">Events</a></li>
-                                    <li><a href="doctor-detail.html">People Community</a></li>
+                                    <li><a asp-action="Events" asp-controller="Events">Events</a></li>
+                                    <li><a asp-action="Index" asp-controller="Home" asp-fragment="features"?>People Community</a></li>
                                 </ul>
                             </li>
 
-                            <li><a href="contact.html">Learning</a></li>
+                            <li><a asp-action="LearningDevelopment" asp-controller="LearningDevelopment">Learning</a></li>
                             <li><a href="#contactUs">Contact Us</a></li>
 
                             
@@ -184,11 +164,11 @@ else
                                 }
                                 <ul class="profile-dropdown">
                                     <span class="widget-title">Welcome @userNameSession!</span>
-                                    <li><a href="profile.html">My Profile</a></li>
-                                    <li><a href="settings.html">Attendance</a></li>
-                                    <li><a href="settings.html">Leaves</a></li>
-                                    <li><a href="settings.html">Pay Slip</a></li>
-                                    <li><a href="settings.html" >Change Password</a></li>
+                                    <li><a asp-action="MyProfile" asp-controller="MyProfile">My Profile</a></li>
+                                    <li><a asp-action="Attendance" asp-controller="Attendance">Attendance</a></li>
+                                    <li><a asp-action="Leaves" asp-controller="Leaves">Leaves</a></li>
+                                    <li><a asp-action="PaySlip" asp-controller="PaySlip">Pay Slip</a></li>
+                                    <li><a asp-action="ChangePass" asp-controller="ChangePass" >Change Password</a></li>
                                     <li><a asp-action="Logout" asp-controller="Logout">Logout</a></li>
                                 </ul>
                             </li>
@@ -210,7 +190,7 @@ else
 
             <div class="main-box">
                 <div class="logo-box">
-                    <div class="logo"><a href="index-2.html"><img src="~/Theme/images/Capture.png" alt="" title=""></a></div>
+                    <div class="logo"><a asp-action="Index" asp-controller="Home"><img src="~/Theme/images/Capture.png" alt="" title=""></a></div>
                 </div>
 
                 <!--Keep This Empty / Menu will come through Javascript-->
@@ -225,10 +205,6 @@ else
         <div class="nav-outer clearfix">
 
             <div class="outer-box">
-                <!-- Search Btn -->
-                <div class="search-box">
-                    <button class="search-btn mobile-search-btn"><i class="flaticon-magnifying-glass"></i></button>
-                </div>
 
                 <a href="#nav-mobile" class="mobile-nav-toggler navbar-trigger"><span class="fa fa-bars"></span></a>
             </div>
@@ -238,21 +214,10 @@ else
     <!-- Mobile Nav -->
     <div id="nav-mobile"></div>
 
-    @*<!-- Header Search -->
-            <div class="search-popup">
-                <span class="search-back-drop"></span>
-                <button class="close-search"><span class="fa fa-times"></span></button>
 
-                <div class="search-inner">
-                    <form method="post" action="https://elite-themes.com/html/medicoz/blog-showcase.html">
-                        <div class="form-group">
-                            <input type="search" name="search-field" value="" placeholder="Search..." required="">
-                            <button type="submit"><i class="flaticon-magnifying-glass"></i></button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <!-- End Header Search -->*@
+
+
+
 
 </header>
 }

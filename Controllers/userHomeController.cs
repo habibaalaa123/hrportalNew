@@ -8,18 +8,17 @@ namespace hrportalNew.Controllers;
 [AuthUser]
 public class userHomeController : Controller
 {
-
+    
 
     PortalContext context = new PortalContext();
+    [HttpGet("home")]
 
     public IActionResult Index()
     {
         HomeModel home = new HomeModel();
-        // var todLst ;
         var todLst = context.TblTods.OrderByDescending(t => t.Date).FirstOrDefault(t => t.First == 1);
         string img_path = todLst.ImgPath.ToString();
         home.tod = img_path;
-        //news/////
         try
         {
             var eventList = context.TblEvents
@@ -29,9 +28,6 @@ public class userHomeController : Controller
             if (eventList.Count > 0)
             {
 
-
-
-
                 home.eventList = eventList;
 
             }
@@ -39,7 +35,6 @@ public class userHomeController : Controller
         catch (Exception ex)
         {
             Console.WriteLine(ex.ToString());
-            // return null;
         }
 
         try
@@ -50,10 +45,6 @@ public class userHomeController : Controller
                      .ToList();
             if (teamList.Count > 0)
             {
-
-
-
-
                 home.teamList = teamList;
 
             }
@@ -61,14 +52,11 @@ public class userHomeController : Controller
         catch (Exception ex)
         {
             Console.WriteLine(ex.ToString());
-            // return null;
         }
-
-
 
         return View(home);
     }
-
+    
 
 
 }

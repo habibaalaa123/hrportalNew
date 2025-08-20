@@ -105,8 +105,8 @@ public class LoginController : Controller
     public int? StringToInt(string value)
     {
         if (int.TryParse(value, out int result))
-            return result;   // valid int
-        return 0;          // invalid string
+            return result;  
+        return 0;         
     }
     public static string HashPassword(string password)
  {

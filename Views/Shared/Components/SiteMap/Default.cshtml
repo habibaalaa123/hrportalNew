@@ -1,0 +1,37 @@
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+@using NewComplainCore.Helper
+@inject IHttpContextAccessor HttpContextAccessor
+
+@if (string.IsNullOrEmpty(HttpContextAccessor.HttpContext?.Session.GetString("user"))){
+
+ <div class="footer-column col-xl-5 col-lg-6 col-md-6 col-sm-12">
+                                    <div class="footer-widget">
+                                        <h2 class="widget-title">Site Map</h2>
+                                        <ul class="user-links">
+                                            <li><a asp-action="Index" asp-controller="Home">Home</a></li>
+                                            <li><a asp-action="FAQ" asp-controller="FAQ">FAQ</a></li>
+                                            <li><a asp-action="Offers" asp-controller="Offers">Offers</a></li>
+                                            <li><a asp-action="Events" asp-controller="Events">Events</a></li>
+                                            <li><a asp-action="PeopleCommunity" asp-controller="PeopleCommunity">People Community</a></li>
+                                            <li><a asp-action="LearningDevelopment" asp-controller="LearningDevelopment">Learning & Development</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+}else{
+ <div class="footer-column col-xl-5 col-lg-6 col-md-6 col-sm-12">
+                                    <div class="footer-widget">
+                                        <h2 class="widget-title">Site Map</h2>
+                                        <ul class="user-links">
+                                            <li><a asp-action="Index" asp-controller="Home">Home</a></li>
+                                            <li><a asp-action="MyRequest" asp-controller="MyRequest">My Request</a></li>
+                                            <li><a asp-action="Tawasol" asp-controller="Tawasol">Tawasol</a></li>
+                                            <li><a asp-action="InternalVac" asp-controller="InternalVac">Internal Vacancies</a></li>
+                                            <li><a asp-action="HrDocs" asp-controller="HrDocs">HR Documents</a></li>
+                                            
+                                    </div>
+                                </div>
+}
+
+                               
