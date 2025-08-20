@@ -10,19 +10,10 @@ public class NavbarViewComponent : ViewComponent
     {
 
 
-        var dumbUser = HttpContext.Session.GetString("UserName");
+        // var dumbUser = HttpContext.Session.GetString("UserName");
 
-        if (string.IsNullOrEmpty(dumbUser))
-        {
-            // session is closed (no active user)
-            return View("NavbarLogout");
-        }
-        else
-        {
-            // session is open (user is logged in)
-            ViewBag.User = dumbUser;
-            return View("NavbarLogin");
-        }
+        //     ViewBag.User = dumbUser;
+            return View("Navbar");
 
     }
 }

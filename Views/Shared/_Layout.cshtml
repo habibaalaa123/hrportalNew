@@ -40,7 +40,7 @@
         
         <!--End Main Header -->
     
-    <div class="container">
+    <div class="">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
@@ -74,8 +74,8 @@
                                     <div class="footer-widget">
                                         <h2 class="widget-title">Site Map</h2>
                                         <ul class="user-links">
-                                            <li><a href="#">Home</a></li>
-                                            <li><a href="#">FAQ</a></li>
+                                            <li><a asp-action="Index" asp-controller="Index">Home</a></li>
+                                            <li><a asp-action="FAQ" asp-controller="FAQ">FAQ</a></li>
                                             <li><a href="#">Offers</a></li>
                                             <li><a href="#">Events</a></li>
                                             <li><a href="#">People Community</a></li>

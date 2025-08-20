@@ -4,7 +4,7 @@ namespace hrportalNew.Controllers
 {
     public class AttendanceController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Attendance()
         {
             return View();
         }

@@ -4,7 +4,7 @@ namespace hrportalNew.Controllers
 {
     public class MyProfileController : Controller
     {
-        public IActionResult Index()
+        public IActionResult MyProfile()
         {
             return View();
         }

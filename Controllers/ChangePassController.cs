@@ -4,7 +4,7 @@ namespace hrportalNew.Controllers
 {
     public class ChangePassController : Controller
     {
-        public IActionResult Index()
+        public IActionResult ChangePass()
         {
             return View();
         }

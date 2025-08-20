@@ -2,9 +2,9 @@
 
 namespace hrportalNew.Controllers
 {
-    public class Events : Controller
+    public class EventsController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Events()
         {
             return View();
         }

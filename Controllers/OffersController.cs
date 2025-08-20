@@ -4,7 +4,7 @@ namespace hrportalNew.Controllers
 {
     public class OffersController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Offers()
         {
             return View();
         }

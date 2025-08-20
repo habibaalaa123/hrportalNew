@@ -2,9 +2,9 @@
 
 namespace hrportalNew.Controllers
 {
-    public class OrganizationChartContoller : Controller
+    public class OrganizationChartController : Controller
     {
-        public IActionResult Index()
+        public IActionResult OrganizationChart()
         {
             return View();
         }

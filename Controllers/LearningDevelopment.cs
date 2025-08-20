@@ -4,7 +4,7 @@ namespace hrportalNew.Controllers
 {
     public class LearningDevelopment : Controller
     {
-        public IActionResult Index()
+        public IActionResult Learning()
         {
             return View();
         }

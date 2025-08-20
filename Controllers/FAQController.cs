@@ -4,7 +4,7 @@ namespace hrportalNew.Controllers
 {
     public class FAQController : Controller
     {
-        public IActionResult Index()
+        public IActionResult FAQ()
         {
             return View();
         }

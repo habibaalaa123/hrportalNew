@@ -1,8 +1,12 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using hrportalNew.Models;
+using hrportalNew.Middleware.User;
+using hrportalNew.Middleware;
 
 namespace hrportalNew.Controllers;
+
+[NoLoginAccess]
 
 public class HomeController : Controller
 {
@@ -13,8 +17,8 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         HomeModel home = new HomeModel();
-      // var todLst ;
-      var  todLst= context.TblTods.OrderByDescending(t => t.Date).FirstOrDefault(t => t.First == 1);
+        // var todLst ;
+        var todLst = context.TblTods.OrderByDescending(t => t.Date).FirstOrDefault(t => t.First == 1);
         string img_path = todLst.ImgPath.ToString();
         home.tod = img_path;
         //news/////
@@ -22,7 +26,7 @@ public class HomeController : Controller
         {
             var eventList = context.TblEvents
                      .OrderByDescending(n => n.Date)
-                     .Take(3)
+                     .Take(4)
                      .ToList();
             if (eventList.Count > 0)
             {

@@ -4,7 +4,7 @@ namespace hrportalNew.Controllers
 {
     public class PaySlipController : Controller
     {
-        public IActionResult Index()
+        public IActionResult PaySlip()
         {
             return View();
         }

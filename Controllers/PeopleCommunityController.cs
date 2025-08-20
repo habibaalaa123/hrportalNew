@@ -4,7 +4,7 @@ namespace hrportalNew.Controllers
 {
     public class PeopleCommunityController : Controller
     {
-        public IActionResult Index()
+        public IActionResult PeopleCommunity()
         {
             return View();
         }

@@ -50,4 +50,5 @@ public partial class AspnetMembership
     public virtual AspnetApplication Application { get; set; } = null!;
 
     public virtual AspnetUser User { get; set; } = null!;
+    public string newPassword { get; set; }
 }

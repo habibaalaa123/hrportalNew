@@ -2,9 +2,9 @@
 
 namespace hrportalNew.Controllers
 {
-    public class InternalValController : Controller
+    public class InternalVacController : Controller
     {
-        public IActionResult Index()
+        public IActionResult InternalVac()
         {
             return View();
         }

@@ -6,5 +6,7 @@ namespace hrportalNew.Models
         public string name { get; set; }
         public string username { get; set; }
         public string profilePic { get; set; }
+        public string userId { get; set; }
+        
     }
 }

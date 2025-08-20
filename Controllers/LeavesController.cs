@@ -4,7 +4,7 @@ namespace hrportalNew.Controllers
 {
     public class LeavesController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Leaves()
         {
             return View();
         }

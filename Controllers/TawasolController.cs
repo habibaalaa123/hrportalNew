@@ -4,7 +4,7 @@ namespace hrportalNew.Controllers
 {
     public class TawasolController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Tawasol()
         {
             return View();
         }
