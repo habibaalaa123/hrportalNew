@@ -28,8 +28,7 @@
     <!-- Responsive -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-    <!--[if lt IE 9]><script src="~/Theme/js/respond.js"></script><![endif]-->
+
 </head>
 <body>
     
@@ -78,28 +77,7 @@
                         <!--Big Column-->
                         <div class="big-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
                             <div class="row">
-                                @*
-                                <!--Footer Column-->
-                                <div class="footer-column col-lg-6 col-md-6 col-sm-12">
-                                    <!--Footer Column-->
-                                    <div class="footer-widget recent-posts">
-                                        <h2 class="widget-title">Latest News</h2>
-                                        <!--Footer Column-->
-                                        <div class="widget-content">
-                                            @foreach (var item in @Model.eventList)
-                                            {
-
-                                                <div class="post">
-                                                    <div class="thumb"><a href="blog-post-image.html"><img src="~/Files/quotes/@item.ImgPath" alt="" onerror="this.onerror=null;this.src='Theme/images/ImageNotFound2.png';"></a></div>
-                                                    <h4><a href="blog-post-image.html">@item.HeaderEn</a></h4>
-                                                    <span class="date">@(item.Date?.ToString("yyyy-MM-dd") ?? "No date available")</span>
-                                                </div>
-                                            }
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-                                *@
+                               
                                 @await Component.InvokeAsync("FooterEvents")
 
                                 <!--Footer Column-->

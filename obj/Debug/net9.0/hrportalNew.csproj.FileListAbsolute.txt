@@ -585,4 +585,4 @@ C:\MyFiles\Training\NewRepo\hrportalNew\bin\Debug\net9.0\ru\Microsoft.CodeAnalys
 C:\MyFiles\Training\NewRepo\hrportalNew\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\MyFiles\Training\NewRepo\hrportalNew\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\MyFiles\Training\NewRepo\hrportalNew\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\MyFiles\Training\NewRepo\hrportalNew\obj\Debug\net9.0\compressed\gqgh6t0tbm-wqnvvv5sbj.gz
+C:\MyFiles\Training\NewRepo\hrportalNew\obj\Debug\net9.0\compressed\gqgh6t0tbm-fo6ty2yppa.gz

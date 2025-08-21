@@ -85,7 +85,7 @@ public class LoginController : Controller
                     HttpContext.Session.SetString("user", JsonConvert.SerializeObject(userData));
 
                     Console.WriteLine("Login Success");
-                    return Redirect("~/userHome");
+                    return Redirect("~/home");
                 }
             }
             else

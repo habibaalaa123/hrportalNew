@@ -11,7 +11,7 @@ namespace hrportalNew.Middleware;
             var admin = context.HttpContext.Session.GetString("admin");
         if (!string.IsNullOrEmpty(user))
         {
-            context.Result = new RedirectResult("userHome");
+            context.Result = new RedirectResult("home");
         }
         else if (!string.IsNullOrEmpty(admin)) {
                 context.Result = new RedirectResult("adminHome");

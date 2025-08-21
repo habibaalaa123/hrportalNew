@@ -43,7 +43,7 @@
                             <li><a asp-action="Offers" asp-controller="Offers">Offers</a></li>
                             <li><a asp-action="Events" asp-controller="Events">Events</a></li>
 
-                            <li><a href="#features">People Community</a></li>
+                            <li><a asp-action="Index" asp-controller="Home" asp-fragment="features">People Community</a></li>
                             <li><a asp-action="LearningDevelopment" asp-controller="LearningDevelopment">Learning</a></li>
                             <li><a asp-action="OrganizationChart" asp-controller="OrganizationChart">Organization Chart </a></li>
                             <li><a href="#contactUs">Contact Us</a></li>
@@ -68,7 +68,6 @@
                     <div class="logo"><a asp-action="Index" asp-controller="Home"><img src="~/Theme/images/Capture.png" alt="" title=""></a></div>
                 </div>
 
-                <!--Keep This Empty / Menu will come through Javascript-->
             </div>
         </div>
     </div><!-- End Sticky Menu -->
@@ -117,14 +116,14 @@ else
             <!-- Main box -->
             <div class="main-box">
                 <div class="logo-box">
-                    <div class="logo"><a asp-action="Index" asp-controller="Home"><img src="~/Theme/images/Capture.png" alt="" title=""></a></div>
+                    <div class="logo"><a asp-action="Index" asp-controller="userHome"><img src="~/Theme/images/Capture.png" alt="" title=""></a></div>
                 </div>
 
                 <!--Nav Box-->
                 <div class="nav-outer">
                     <nav class="nav main-menu">
                         <ul class="navigation" id="navbar">
-                            <li><a asp-action="Index" asp-controller="Home">Home</a></li>
+                            <li><a asp-action="Index" asp-controller="userHome">Home</a></li>
 
                             <li><a asp-action="MyRequest" asp-controller="MyRequest">My Requests</a></li>
                             <li><a asp-action="Tawasol" asp-controller="Tawasol">Tawasol</a></li>
@@ -142,7 +141,7 @@ else
                                 <span>Events</span>
                                 <ul>
                                     <li><a asp-action="Events" asp-controller="Events">Events</a></li>
-                                    <li><a asp-action="Index" asp-controller="Home" asp-fragment="features"?>People Community</a></li>
+                                    <li><a asp-action="Index" asp-controller="userHome" asp-fragment="features"?>People Community</a></li>
                                 </ul>
                             </li>
 
@@ -190,7 +189,7 @@ else
 
             <div class="main-box">
                 <div class="logo-box">
-                    <div class="logo"><a asp-action="Index" asp-controller="Home"><img src="~/Theme/images/Capture.png" alt="" title=""></a></div>
+                    <div class="logo"><a asp-action="Index" asp-controller="userHome"><img src="~/Theme/images/Capture.png" alt="" title=""></a></div>
                 </div>
 
                 <!--Keep This Empty / Menu will come through Javascript-->
@@ -199,7 +198,7 @@ else
     </div><!-- End Sticky Menu -->
     <!-- Mobile Header -->
     <div class="mobile-header">
-        <div class="logo"><a href="index-2.html"><img src="images/logo.png" alt="" title=""></a></div>
+        <div class="logo"><a asp-action="Index" asp-controller="Home"><img src="images/logo.png" alt="" title=""></a></div>
 
         <!--Nav Box-->
         <div class="nav-outer clearfix">
