@@ -1,2 +1,16 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+*.db
+appsettings.json
+appsettings.Development.json
+wwwroot/User/*
+Properties/launchSettings.json
+Properties/PublishProfiles/*
+Services/DomainDbConfig.cs

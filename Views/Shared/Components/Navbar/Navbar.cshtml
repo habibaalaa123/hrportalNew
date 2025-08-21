@@ -1,222 +1,212 @@
-﻿
-@using Microsoft.AspNetCore.Http
-@inject IHttpContextAccessor HttpContextAccessor
-
+﻿@using Microsoft.AspNetCore.Http
 @using NewComplainCore.Helper
 @inject IHttpContextAccessor HttpContextAccessor
 
 @if (string.IsNullOrEmpty(HttpContextAccessor.HttpContext?.Session.GetString("user")))
 {
+    <!-- Guest Header -->
     <header class="main-header header-style-one">
-
-    <!-- Header top -->
-    <div class="header-top container">
-        <div class="auto-container">
-            <div class="inner-container">
-                <div class="top-left">
-                    <ul class="contact-list clearfix">
-                        <li><i class="flaticon-hospital-1"></i>Cairo - Al Wosta, Athar an Nabi, Dar El Salam, Cairo </li>
-
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- End Header Top -->
-    <!-- Header Lower -->
-    <div class="header-lower container">
-        <div class="auto-container">
-            <!-- Main box -->
-            <div class="main-box">
-                <div class="logo-box">
-                    <div class="logo"><a asp-action="Index" asp-controller="Home"><img src="~/Theme/images/Capture.png" alt="" title=""></a></div>
-                </div>
-
-                <!--Nav Box-->
-                <div class="nav-outer">
-                    <nav class="nav main-menu">
-                        <ul class="navigation" id="navbar">
-                            <li><a asp-action="Index" asp-controller="Home">Home</a></li>
-
-                            <li><a asp-action="FAQ" asp-controller="FAQ">FAQ</a></li>
-                            <li><a asp-action="Offers" asp-controller="Offers">Offers</a></li>
-                            <li><a asp-action="Events" asp-controller="Events">Events</a></li>
-
-                            <li><a asp-action="Index" asp-controller="Home" asp-fragment="features">People Community</a></li>
-                            <li><a asp-action="LearningDevelopment" asp-controller="LearningDevelopment">Learning</a></li>
-                            <li><a asp-action="OrganizationChart" asp-controller="OrganizationChart">Organization Chart </a></li>
-                            <li><a href="#contactUs">Contact Us</a></li>
+        <!-- Header top -->
+        <div class="header-top container">
+            <div class="auto-container">
+                <div class="inner-container">
+                    <div class="top-left">
+                        <ul class="contact-list clearfix">
+                            <li><i class="flaticon-hospital-1"></i>Cairo - Al Wosta, Athar an Nabi, Dar El Salam, Cairo</li>
                         </ul>
-                    </nav>
-                    <!-- Main Menu End-->
-
-                    <div class="outer-box">
-                        <a asp-action="Login" asp-controller="Login" id="login-btn" class="theme-btn btn-style-one"><span class="btn-title">Log in</span></a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <!-- End Header Top -->
 
-    <!-- Sticky Header  -->
-    <div class="sticky-header">
-        <div class="auto-container">
+        <!-- Header Lower -->
+        <div class="header-lower container">
+            <div class="auto-container">
+                <div class="main-box">
+                    <div class="logo-box">
+                        <div class="logo">
+                            <a asp-action="Index" asp-controller="Home">
+                                <img src="~/Theme/images/Capture.png" alt="Logo" title="Logo">
+                            </a>
+                        </div>
+                    </div>
 
-            <div class="main-box">
-                <div class="logo-box">
-                    <div class="logo"><a asp-action="Index" asp-controller="Home"><img src="~/Theme/images/Capture.png" alt="" title=""></a></div>
+                    <!--Nav Box-->
+                    <div class="nav-outer">
+                        <nav class="nav main-menu">
+                            <ul class="navigation" id="navbar">
+                                <li><a asp-action="Index" asp-controller="Home">Home</a></li>
+                                <li><a asp-action="FAQ" asp-controller="FAQ">FAQ</a></li>
+                                <li><a asp-action="Offers" asp-controller="Offers">Offers</a></li>
+                                <li><a asp-action="Events" asp-controller="Events">Events</a></li>
+                                <li><a asp-action="Index" asp-controller="Home" asp-fragment="features">People Community</a></li>
+                                <li><a asp-action="LearningDevelopment" asp-controller="LearningDevelopment">Learning</a></li>
+                                <li><a asp-action="OrganizationChart" asp-controller="OrganizationChart">Organization Chart</a></li>
+                                <li><a href="#contactUs">Contact Us</a></li>
+                            </ul>
+                        </nav>
+
+                        <div class="outer-box">
+                            <a asp-action="Login" asp-controller="Login" id="login-btn" class="theme-btn btn-style-one">
+                                <span class="btn-title">Log in</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-
             </div>
         </div>
-    </div><!-- End Sticky Menu -->
-    <!-- Mobile Header -->
-    <div class="mobile-header">
-        <div class="logo"><a asp-action="Index" asp-controller="Home"><img src="images/logo.png" alt="" title=""></a></div>
 
-        <!--Nav Box-->
-        <div class="nav-outer clearfix">
-
-            <div class="outer-box">
-            
-                <a href="#nav-mobile" class="mobile-nav-toggler navbar-trigger"><span class="fa fa-bars"></span></a>
+        <!-- Sticky Header -->
+        <div class="sticky-header">
+            <div class="auto-container">
+                <div class="main-box">
+                    <div class="logo-box">
+                        <div class="logo">
+                            <a asp-action="Index" asp-controller="Home">
+                                <img src="~/Theme/images/Capture.png" alt="Logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <!-- Mobile Nav -->
-    <div id="nav-mobile"></div>
+        <!-- Mobile Header -->
+        <div class="mobile-header">
+            <div class="logo">
+                <a asp-action="Index" asp-controller="Home">
+                    <img src="~/Theme/images/Capture.png" alt="Logo">
+                </a>
+            </div>
+            <div class="nav-outer clearfix">
+                <div class="outer-box">
+                    <a href="#nav-mobile" class="mobile-nav-toggler navbar-trigger">
+                        <span class="fa fa-bars"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
 
-</header>
+        <!-- Mobile Nav -->
+        <div id="nav-mobile"></div>
+    </header>
 }
 else
 {
-    <!-- Main Header-->
-<header class="main-header header-style-one">
-
-    <!-- Header top -->
-    <div class="header-top container">
-        <div class="auto-container">
-            <div class="inner-container">
-                <div class="top-left">
-                    <ul class="contact-list clearfix">
-                        <li><i class="flaticon-hospital-1"></i>Cairo - Al Wosta, Athar an Nabi, Dar El Salam, Cairo </li>
-
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- End Header Top -->
-    <!-- Header Lower -->
-    <div class="header-lower container">
-        <div class="auto-container">
-            <!-- Main box -->
-            <div class="main-box">
-                <div class="logo-box">
-                    <div class="logo"><a asp-action="Index" asp-controller="userHome"><img src="~/Theme/images/Capture.png" alt="" title=""></a></div>
-                </div>
-
-                <!--Nav Box-->
-                <div class="nav-outer">
-                    <nav class="nav main-menu">
-                        <ul class="navigation" id="navbar">
-                            <li><a asp-action="Index" asp-controller="userHome">Home</a></li>
-
-                            <li><a asp-action="MyRequest" asp-controller="MyRequest">My Requests</a></li>
-                            <li><a asp-action="Tawasol" asp-controller="Tawasol">Tawasol</a></li>
-                            <li><a asp-action="Calender" asp-controller="Calender">Calender</a></li>
-
-                            <li class="dropdown">
-                                <span>Human Resources</span>
-                                <ul>
-                                    <li><a asp-action="HrDocs" asp-controller="HrDocs">HR Docments</a></li>
-                                    <li><a asp-action="InternalVac" asp-controller="InternalVac">Internal Vacancies</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="dropdown">
-                                <span>Events</span>
-                                <ul>
-                                    <li><a asp-action="Events" asp-controller="Events">Events</a></li>
-                                    <li><a asp-action="Index" asp-controller="userHome" asp-fragment="features"?>People Community</a></li>
-                                </ul>
-                            </li>
-
-                            <li><a asp-action="LearningDevelopment" asp-controller="LearningDevelopment">Learning</a></li>
-                            <li><a href="#contactUs">Contact Us</a></li>
-
-                            
-                            <!-- Profile Menu -->
-                            <li class="dropdown profile-menu">
-                                <div class="profile-wrapper">
-                                    <img src="images/profile.jpg" alt="Profile" class="profile-pic alt=""
-                                         onerror="this.onerror=null;this.src='@Url.Content("~/Theme/images/NoPFP.png")'">
-                                    
-                                </div>
-                                @{
-                                    var userSession = HttpContextAccessor.HttpContext?.Session.GetString("user") ;
-                                    var userNameSession = UtilityHelper.GetUserSessionData(userSession, "name");
-
-                                }
-                                <ul class="profile-dropdown">
-                                    <span class="widget-title">Welcome @userNameSession!</span>
-                                    <li><a asp-action="MyProfile" asp-controller="MyProfile">My Profile</a></li>
-                                    <li><a asp-action="Attendance" asp-controller="Attendance">Attendance</a></li>
-                                    <li><a asp-action="Leaves" asp-controller="Leaves">Leaves</a></li>
-                                    <li><a asp-action="PaySlip" asp-controller="PaySlip">Pay Slip</a></li>
-                                    <li><a asp-action="ChangePass" asp-controller="ChangePass" >Change Password</a></li>
-                                    <li><a asp-action="Logout" asp-controller="Logout">Logout</a></li>
-                                </ul>
-                            </li>
-
-
+    <!-- Authenticated User Header -->
+    <header class="main-header header-style-one">
+        <!-- Header top -->
+        <div class="header-top container">
+            <div class="auto-container">
+                <div class="inner-container">
+                    <div class="top-left">
+                        <ul class="contact-list clearfix">
+                            <li><i class="flaticon-hospital-1"></i>Cairo - Al Wosta, Athar an Nabi, Dar El Salam, Cairo</li>
                         </ul>
-
-                    </nav>
-                    <!-- Main Menu End-->
-
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Sticky Header  -->
-    <div class="sticky-header">
-        <div class="auto-container">
+        <!-- Header Lower -->
+        <div class="header-lower container">
+            <div class="auto-container">
+                <div class="main-box">
+                    <div class="logo-box">
+                        <div class="logo">
+                            <a asp-action="Index" asp-controller="userHome">
+                                <img src="~/Theme/images/Capture.png" alt="Logo">
+                            </a>
+                        </div>
+                    </div>
 
-            <div class="main-box">
-                <div class="logo-box">
-                    <div class="logo"><a asp-action="Index" asp-controller="userHome"><img src="~/Theme/images/Capture.png" alt="" title=""></a></div>
+                    <div class="nav-outer">
+                        <nav class="nav main-menu">
+                            <ul class="navigation" id="navbar">
+                                <li><a asp-action="Index" asp-controller="userHome">Home</a></li>
+                                <li><a asp-action="MyRequest" asp-controller="MyRequest">My Requests</a></li>
+                                <li><a asp-action="Tawasol" asp-controller="Tawasol">Tawasol</a></li>
+                                <li><a asp-action="Calender" asp-controller="Calender">Calendar</a></li>
+
+                                <li class="dropdown">
+                                    <span>Human Resources</span>
+                                    <ul>
+                                        <li><a asp-action="HrDocs" asp-controller="HrDocs">HR Documents</a></li>
+                                        <li><a asp-action="InternalVac" asp-controller="InternalVac">Internal Vacancies</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <span>Events</span>
+                                    <ul>
+                                        <li><a asp-action="Events" asp-controller="Events">Events</a></li>
+                                        <li><a asp-action="Index" asp-controller="userHome" asp-fragment="features">People Community</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a asp-action="LearningDevelopment" asp-controller="LearningDevelopment">Learning</a></li>
+                                <li><a href="#contactUs">Contact Us</a></li>
+
+                                <!-- Profile Menu -->
+                                <li class="dropdown profile-menu">
+                                    <div class="profile-wrapper">
+                                        <img src="~/Theme/images/profile.jpg" alt="Profile" class="profile-pic"
+                                             onerror="this.onerror=null;this.src='@Url.Content("~/Theme/images/NoPFP.png")'">
+                                    </div>
+                                    @{
+                                        var userSession = HttpContextAccessor.HttpContext?.Session.GetString("user");
+                                        var userNameSession = UtilityHelper.GetUserSessionData(userSession, "name");
+                                    }
+                                    <ul class="profile-dropdown">
+                                        <span class="widget-title">Welcome @userNameSession!</span>
+                                        <li><a asp-action="MyProfile" asp-controller="MyProfile">My Profile</a></li>
+                                        <li><a asp-action="Attendance" asp-controller="Attendance">Attendance</a></li>
+                                        <li><a asp-action="Leaves" asp-controller="Leaves">Leaves</a></li>
+                                        <li><a asp-action="PaySlip" asp-controller="PaySlip">Pay Slip</a></li>
+                                        <li><a asp-action="ChangePass" asp-controller="ChangePass">Change Password</a></li>
+                                        <li><a asp-action="Logout" asp-controller="Logout">Logout</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-
-                <!--Keep This Empty / Menu will come through Javascript-->
             </div>
         </div>
-    </div><!-- End Sticky Menu -->
-    <!-- Mobile Header -->
-    <div class="mobile-header">
-        <div class="logo"><a asp-action="Index" asp-controller="Home"><img src="images/logo.png" alt="" title=""></a></div>
 
-        <!--Nav Box-->
-        <div class="nav-outer clearfix">
-
-            <div class="outer-box">
-
-                <a href="#nav-mobile" class="mobile-nav-toggler navbar-trigger"><span class="fa fa-bars"></span></a>
+        <!-- Sticky Header -->
+        <div class="sticky-header">
+            <div class="auto-container">
+                <div class="main-box">
+                    <div class="logo-box">
+                        <div class="logo">
+                            <a asp-action="Index" asp-controller="userHome">
+                                <img src="~/Theme/images/Capture.png" alt="Logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <!-- Mobile Nav -->
-    <div id="nav-mobile"></div>
+        <!-- Mobile Header -->
+        <div class="mobile-header">
+            <div class="logo">
+                <a asp-action="Index" asp-controller="Home">
+                    <img src="~/Theme/images/Capture.png" alt="Logo">
+                </a>
+            </div>
+            <div class="nav-outer clearfix">
+                <div class="outer-box">
+                    <a href="#nav-mobile" class="mobile-nav-toggler navbar-trigger">
+                        <span class="fa fa-bars"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
 
-
-
-
-
-
-</header>
+        <!-- Mobile Nav -->
+        <div id="nav-mobile"></div>
+    </header>
 }
